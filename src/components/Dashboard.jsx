@@ -34,6 +34,7 @@ export default function Dashboard() {
         )
     }
 
+
     if (error) {
         return <h1>Error: {error.message}</h1>
     }
